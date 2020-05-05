@@ -19,7 +19,7 @@ export default function Home({ allPostsData }) {
       <Layout home>
         <Head>
           {/*<title>{siteTitle}</title>*/}
-        <title>The Rock (1996)</title>
+        <title>The Rock</title>
         <meta property="og:title" content="The Rock" />
         <meta property="og:type" content="video.movie" />
         <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
