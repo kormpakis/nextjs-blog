@@ -18,7 +18,12 @@ export default function Home({ allPostsData }) {
     return (
       <Layout home>
         <Head>
-          <title>{siteTitle}</title>
+          {/*<title>{siteTitle}</title>*/}
+        <title>The Rock (1996)</title>
+        <meta property="og:title" content="The Rock" />
+        <meta property="og:type" content="video.movie" />
+        <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
+        <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
         </Head>
           <section className={utilStyles.headingMd}>…</section>
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
