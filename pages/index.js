@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
+import React from 'react'
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData()
@@ -19,11 +20,11 @@ export default function Home({ allPostsData }) {
       <Layout home>
         <Head>
           {/*<title>{siteTitle}</title>*/}
-        <title>The Rock</title>
+        <title>The Test</title>
         <meta property="og:title" content="The Rock" />
         <meta property="og:type" content="video.movie" />
         <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
-        <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+        {/*<meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />*/}
         </Head>
           <section className={utilStyles.headingMd}>…</section>
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
